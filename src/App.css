@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+label {
+  
+  display: block;
+  margin-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-container.card {
+  background-image: url(https://i.pinimg.com/736x/27/2d/dc/272ddc437226d2b3bec958cb4683c00a.jpg);
+  max-width: 500px !important;
+  padding: 40px 40px;
   color: white;
+  border-radius: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  background-color: #a5afe9;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-img-card {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto 10px;
+  display: block;
 }
+
+.profile-img-card1{
+
+width: 100px;
+height: 100px;
+margin: 0 auto 10px;
+display: block;
+border-radius: 50%;
+
+}
+
+.profile-img-card2{
+
+width: 1100px;
+height: 300px;
+
+}
+
+nav{
+  background-color: rgb(255, 255, 255);
+
+  
+}
+body{
+  background-color: rgb(163, 163, 59);
+  background-image: url(https://i.pinimg.com/originals/bb/54/ca/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+}
+
+h3 {
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(53, 45, 45);
+
+}
+
+h2{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 80px;
+
+}
+
+.board {
+position: relative;
+width: auto;
+height: auto;
+margin-right: auto;
+background: white;
+border-radius: 10%;
+display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+}
+
+.boardHead{
+height: 200px;
+text-align:center;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,193,186,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.divContain{
+
+background-color: white;
+
+}
+
+
